@@ -70,7 +70,7 @@ public class Controller {
                 int boxNumber = Integer.parseInt(sc.next());
                 controller.addBox(sectionNumber, boxNumber);
 
-            }catch (InterruptedException ie) {
+            } catch (InterruptedException ie) {
                 System.out.println("Leaving");
                 return;
             }
